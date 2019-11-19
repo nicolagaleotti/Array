@@ -48,7 +48,7 @@ namespace LibreriaArray
             if (array1.Length != array2.Length)
                 return false;
             string risposta = "si";
-            for (int i = 0; i < array1.Length; i++)
+            for (int i = 0; i < array1.Length - 1; i++)
             {
                 if (array1[i] != array2[i])
                     risposta = "no";
@@ -103,7 +103,7 @@ namespace LibreriaArray
             if (array1.Length != array2.Length)
                 return false;
             string risposta = "si";
-            for (int i = 0; i < array1.Length; i++)
+            for (int i = 0; i < array1.Length - 1; i++)
             {
                 if (array1[i] != array2[i])
                     risposta = "no";
@@ -158,7 +158,7 @@ namespace LibreriaArray
             if (array1.Length != array2.Length)
                 return false;
             string risposta = "si";
-            for (int i = 0; i < array1.Length; i++)
+            for (int i = 0; i < array1.Length - 1; i++)
             {
                 if (array1[i] != array2[i])
                     risposta = "no";
